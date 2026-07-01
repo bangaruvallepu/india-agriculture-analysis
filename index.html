@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>India's Agricultural Crop Production Analysis</title>
+
+  <meta name="description" content="India's Agricultural Crop Production Analysis using Tableau Dashboard and Story">
+  <meta name="keywords" content="Tableau, Agriculture, Dashboard, Story, Data Analytics">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+
+  <!-- Bootstrap -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+<header id="header" class="header d-flex align-items-center fixed-top">
+
+<div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+<a href="#home" class="logo d-flex align-items-center">
+
+<h1 class="sitename">
+India's Agricultural Crop Production Analysis
+</h1>
+
+</a>
+
+<nav id="navmenu" class="navmenu">
+
+<ul>
+
+<li>
+<a href="#home" class="active">Home</a>
+</li>
+
+<li class="dropdown">
+
+<a href="#">
+
+<span>Visualizations</span>
+
+<i class="bi bi-chevron-down toggle-dropdown"></i>
+
+</a>
+
+<ul>
+
+<li>
+<a href="#dashboard">
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="#story">
+Story
+</a>
+</li>
+
+</ul>
+
+</li>
+
+<li>
+<a href="#contact">
+Contact
+</a>
+</li>
+
+</ul>
+
+<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+</nav>
+
+</div>
+
+</header>
+
+<main class="main">
+
+<!-- Hero Section -->
+
+<section id="home" class="hero-slider">
+
+<div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+
+<img src="assets/img/hero1.jpg" class="d-block w-100 hero-img">
+
+<div class="carousel-caption">
+
+<h1>INDIA'S AGRICULTURAL CROP PRODUCTION ANALYSIS</h1>
+
+<p>
+Interactive Tableau Dashboard & Story
+</p>
+
+<a href="#dashboard" class="btn btn-success btn-lg">
+
+View Dashboard
+
+</a>
+
+<a href="#story" class="btn btn-light btn-lg">
+
+View Story
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="carousel-item">
+
+<img src="assets/img/hero2.jpg" class="d-block w-100 hero-img">
+
+<div class="carousel-caption">
+
+<h1>Crop Production Trends</h1>
+
+<p>
+
+Analyze State-wise Agricultural Production
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="carousel-item">
+
+<img src="assets/img/hero3.jpg" class="d-block w-100 hero-img">
+
+<div class="carousel-caption">
+
+<h1>Interactive Tableau Dashboard</h1>
+
+<p>
+
+Explore India's Agriculture Data
+
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="carousel-item">
+
+<img src="assets/img/hero4.jpg" class="d-block w-100 hero-img">
+
+<div class="carousel-caption">
+
+<h1>Tableau Story</h1>
+
+<p>
+
+Visual Insights from 1997–2021
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<button class="carousel-control-prev"
+
+type="button"
+
+data-bs-target="#heroCarousel"
+
+data-bs-slide="prev">
+
+<span class="carousel-control-prev-icon"></span>
+
+</button>
+
+
+
+<button class="carousel-control-next"
+
+type="button"
+
+data-bs-target="#heroCarousel"
+
+data-bs-slide="next">
+
+<span class="carousel-control-next-icon"></span>
+
+</button>
+
+</div>
+
+</section>
+View Dashboard
+
+</a>
+
+<a href="#story" class="btn btn-outline-success btn-lg">
+
+View Story
+
+</a>
+
+</div>
+
+</div>
+
+<div class="col-lg-6 text-center" data-aos="fade-left">
+
+<img
+src="assets/img/hero_1.jpg"
+class="img-fluid rounded shadow-lg"
+alt="Agriculture">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- =======================================================
+PROJECT OVERVIEW
+======================================================= -->
+
+<section id="overview" class="section py-5 bg-light">
+
+<div class="container">
+
+<div class="section-title text-center mb-5">
+<h2>Project Overview</h2>
+<p>India's Agricultural Crop Production Analysis (1997–2021)</p>
+</div>
+
+<div class="row">
+
+<div class="col-lg-4 mb-4">
+
+<div class="card h-100 shadow border-0">
+
+<div class="card-body">
+
+<h4 class="mb-3">
+Objective
+</h4>
+
+<p>
+
+Analyze India's agricultural crop production from
+1997–2021 using Tableau dashboards and stories.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4 mb-4">
+
+<div class="card h-100 shadow border-0">
+
+<div class="card-body">
+
+<h4 class="mb-3">
+
+Tools Used
+
+</h4>
+
+<ul>
+
+<li>Tableau</li>
+
+<li>Microsoft Excel</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4 mb-4">
+
+<div class="card h-100 shadow border-0">
+
+<div class="card-body">
+
+<h4 class="mb-3">
+
+Key Insights
+
+</h4>
+
+<ul>
+
+<li>State-wise Production</li>
+
+<li>Crop-wise Analysis</li>
+
+<li>Year-wise Trends</li>
+
+<li>Seasonal Patterns</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =======================================================
+TABLEAU DASHBOARD
+======================================================= -->
+
+<section id="dashboard" class="section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Dashboard</h2>
+
+<p>
+
+INDIA'S AGRICULTURAL CROP PRODUCTION ANALYSIS
+
+</p>
+
+</div>
+
+<div class='tableauPlaceholder'
+id='viz1782802279304'
+style='position: relative'>
+
+<noscript>
+
+<a href='#'>
+
+<img
+alt='Dashboard'
+src='https://public.tableau.com/static/images/In/IndiasAgriculturalCropProductionAnalysisDashBoard1/Dashboard2/1_rss.png'
+style='border:none'>
+
+</a>
+
+</noscript>
+
+<object class='tableauViz'
+style='display:none;'>
+
+<param name='host_url'
+value='https%3A%2F%2Fpublic.tableau.com%2F' />
+
+<param name='embed_code_version'
+value='3' />
+
+<param name='site_root'
+value='' />
+
+<param name='name'
+value='IndiasAgriculturalCropProductionAnalysisDashBoard1/Dashboard2' />
+
+<param name='tabs'
+value='no' />
+
+<param name='toolbar'
+value='yes' />
+
+<param name='static_image'
+value='https://public.tableau.com/static/images/In/IndiasAgriculturalCropProductionAnalysisDashBoard1/Dashboard2/1.png' />
+
+<param name='animate_transition'
+value='yes' />
+
+<param name='display_static_image'
+value='yes' />
+
+<param name='display_spinner'
+value='yes' />
+
+<param name='display_overlay'
+value='yes' />
+
+<param name='display_count'
+value='yes' />
+
+<param name='language'
+value='en-US' />
+
+</object>
+
+</div>
+
+<script>
+
+var divElement=document.getElementById('viz1782802279304');
+
+var vizElement=divElement.getElementsByTagName('object')[0];
+
+vizElement.style.width='100%';
+
+vizElement.style.height='850px';
+
+var scriptElement=document.createElement('script');
+
+scriptElement.src='https://public.tableau.com/javascripts/api/viz_v1.js';
+
+vizElement.parentNode.insertBefore(scriptElement,vizElement);
+
+</script>
+
+</div>
+
+</section>
+<!-- =======================================================
+TABLEAU STORY
+======================================================= -->
+
+<section id="story" class="section bg-light">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Story</h2>
+
+<p>
+
+INDIA'S AGRICULTURAL CROP PRODUCTION ANALYSIS
+
+</p>
+
+</div>
+
+<div class='tableauPlaceholder'
+id='viz1782802324461'
+style='position:relative'>
+
+<noscript>
+
+<a href='#'>
+
+<img
+alt='Agriculture Story'
+src='https://public.tableau.com/static/images/In/IndiasAgriculturalCropProductionAnalysisStory_17827330156970/Story1/1_rss.png'
+style='border:none'>
+
+</a>
+
+</noscript>
+
+<object class='tableauViz'
+style='display:none;'>
+
+<param name='host_url'
+value='https%3A%2F%2Fpublic.tableau.com%2F'/>
+
+<param name='embed_code_version'
+value='3'/>
+
+<param name='site_root'
+value=''/>
+
+<param name='name'
+value='IndiasAgriculturalCropProductionAnalysisStory_17827330156970/Story1'/>
+
+<param name='tabs'
+value='no'/>
+
+<param name='toolbar'
+value='yes'/>
+
+<param name='static_image'
+value='https://public.tableau.com/static/images/In/IndiasAgriculturalCropProductionAnalysisStory_17827330156970/Story1/1.png'/>
+
+<param name='animate_transition'
+value='yes'/>
+
+<param name='display_static_image'
+value='yes'/>
+
+<param name='display_spinner'
+value='yes'/>
+
+<param name='display_overlay'
+value='yes'/>
+
+<param name='display_count'
+value='yes'/>
+
+<param name='language'
+value='en-US'/>
+
+</object>
+
+</div>
+
+<script>
+
+var divElement=document.getElementById('viz1782802324461');
+
+var vizElement=divElement.getElementsByTagName('object')[0];
+
+vizElement.style.width='100%';
+vizElement.style.height='900px';
+
+var scriptElement=document.createElement('script');
+
+scriptElement.src='https://public.tableau.com/javascripts/api/viz_v1.js';
+
+vizElement.parentNode.insertBefore(scriptElement,vizElement);
+
+</script>
+
+</div>
+
+</section>
+<section id="team" class="section">
+
+<div class="container">
+
+<div class="section-title text-center">
+<h2>Project Team</h2>
+<p>India's Agricultural Crop Production Analysis</p>
+</div>
+
+<div class="row justify-content-center">
+
+<div class="col-lg-4 col-md-6">
+
+<div class="card shadow text-center p-4">
+
+<img src="assets/img/team1.jpg"
+class="rounded-circle mx-auto mb-3"
+width="150">
+
+<h4>BANGARU VALLEPU</h4>
+
+<p>Analyst</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-4 col-md-6">
+
+<div class="card shadow text-center p-4">
+
+<img src="assets/img/team2.jpg"
+class="rounded-circle mx-auto mb-3"
+width="150">
+
+<h4>ANURADHA DANABOINA</h4>
+
+<p>Developer</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-4 col-md-6">
+
+<div class="card shadow text-center p-4">
+
+<img src="assets/img/team3.jpg"
+class="rounded-circle mx-auto mb-3"
+width="150">
+
+<h4>SIVA NAGALAKSHMI BODDULA</h4>
+
+<p>PROJECT DESIGNER</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =======================================================
+CONTACT
+======================================================= -->
+
+<section id="contact" class="section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Contact</h2>
+
+<p>
+
+Get In Touch
+
+</p>
+
+</div>
+
+<div class="row justify-content-center">
+
+<div class="col-lg-8">
+
+<div class="card shadow border-0">
+
+<div class="card-body p-5">
+
+<form>
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+
+<input
+type="text"
+class="form-control"
+placeholder="Your Name">
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<input
+type="email"
+class="form-control"
+placeholder="Your Email">
+
+</div>
+
+</div>
+
+<div class="mb-3">
+
+<input
+type="text"
+class="form-control"
+placeholder="Subject">
+
+</div>
+
+<div class="mb-3">
+
+<textarea
+rows="6"
+class="form-control"
+placeholder="Message"></textarea>
+
+</div>
+
+<div class="text-center">
+
+<button
+class="btn btn-success btn-lg">
+
+Send Message
+
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+
+<!-- =======================================================
+FOOTER
+======================================================= -->
+
+<footer class="footer">
+
+<div class="container text-center py-4">
+
+<h4>
+
+INDIA'S AGRICULTURAL CROP PRODUCTION ANALYSIS
+
+</h4>
+
+<p>
+
+Interactive Tableau Dashboard & Story
+
+</p>
+
+<p>
+
+© 2026 All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+
+
+<a href="#"
+id="scroll-top"
+class="scroll-top">
+
+<i class="bi bi-arrow-up-short"></i>
+
+</a>
+
+
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/vendor/aos/aos.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
